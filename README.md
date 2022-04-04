@@ -24,7 +24,9 @@ The pretrained-models can be downloaded from [https://pan.baidu.com/s/1ynDyD2Aa1
 ```
 python main.py train --hidden_nodes 900 --lr 0.01 --lambda_w 0.01 --vis_train True --vis_feature True
 ```
-The visualization of training process and hidden features can be found in `./results/model_h-nodes${hidden_nodes}_lr${lr}_w${lambda_w}` after training.
+The visualization of training process and hidden features can be found in `./results/model_h-nodes${hidden_nodes}_lr${lr}_w${lambda_w}` after training.  
+
+The vis_train is a choice for visualizing the training process. The vis_feature is a choice for visualizing the hidden-layer neurons, which needs to utilize the PIL and sklearn package. I found the sklearn has some version problem when running on VScode, so if you want to watch some visualization results, please use PyCharm or other IDE, or you can choose to shut down this option.
 
 ### Inference
 ```
