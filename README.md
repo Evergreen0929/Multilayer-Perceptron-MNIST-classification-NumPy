@@ -10,7 +10,7 @@ NumPy = 1.19.2
 **for visualization:** matplotlib = 3.3.4, PIL = 8.2.0, sklearn = 0.24.2  
 
 ### Dataset 
-The MNIST can be downloaded from [official webset](http://yann.lecun.com/exdb/mnist/) or from [https://pan.baidu.com/s/1s8HoOEW_cBaVtq8_rQRHyA](https://pan.baidu.com/s/1s8HoOEW_cBaVtq8_rQRHyA), (pwd: rxor). After downloading the dataset, put the four files (train images and labels, t10k images and labels) in `./mnist/`. (If you use the baidu netdesk url, directly unzip the file at root dir is also acceptable.)
+The MNIST can be downloaded from [official webset](http://yann.lecun.com/exdb/mnist/) or from [https://pan.baidu.com/s/1s8HoOEW_cBaVtq8_rQRHyA](https://pan.baidu.com/s/1s8HoOEW_cBaVtq8_rQRHyA), (pwd: rxor). If you use the baidu netdesk url, directly unzip the file at root dir is acceptable. Else, put the four files (train-images-idx3-ubyte, train-labels-idx1-ubyte, t10k-images-idx3-ubyte, t10k-labels-idx1-ubyte) in `./mnist/`. 
 
 ### Pre-trained weights
 I have pretrained models with different sizes, the number of neurons in the hidden layer range from 100 to 900. You can choose the pre-trained weights you need to make inference or train from scratch.  
@@ -23,4 +23,10 @@ The pretrained-models can be downloaded from [https://pan.baidu.com/s/1ynDyD2Aa1
 python train --hidden_nodes 900 --lr 0.01 --lambda_w 0.01 --vis_train True --vis_feature True
 ```
 The visualization of training process and hidden features can be found in `./results/model_h-nodes${hidden_nodes}_lr${lr}_w${lambda_w}` after training.
+
+### Inference
+```
+python inference --hidden_nodes 900 --lr 0.01 --lambda_w 0.01
+```
+
 
