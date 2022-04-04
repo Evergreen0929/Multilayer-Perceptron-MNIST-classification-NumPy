@@ -229,7 +229,7 @@ def mlp_fd(hidden_nodes, learning_rate, lambda_w, epochs=10, batchsize=64, pretr
                 r = int(i / train_x.shape[0] * 100)
                 print("\r", end="")
                 #print("Epoch[{}]: {}%: ".format(e+1, r), "▋" * (r // 2), end="")
-                print("Epoch[{}]: {}%: ".format(e + 1, r), "|" * (r // 2), end="")
+                print("Epoch[{}/{}]: {}%: ".format(e + 1, epochs, r), "|" * (r // 2), end="")
                 sys.stdout.flush()
 
                 if i % batchsize == 0:
@@ -257,7 +257,7 @@ def mlp_fd(hidden_nodes, learning_rate, lambda_w, epochs=10, batchsize=64, pretr
 
     print("\nTest the best model at last.")
     n.load()
-    best = n.test(test_x, test_y, n, mode='test')
+    best, _ = n.test(test_x, test_y, n, mode='test')
 
     if feature_choice == True:
         feature([n.wih, n.who], [hidden_nodes, learning_rate, lambda_w], smooth=True)
@@ -272,7 +272,7 @@ def mlp_fd_grid_search():
     lr_range = [0.01, 0.003, 0.001, 0.0003, 0.0001]
     w_range = [0.1, 0.03, 0.01, 0.003, 0]
 
-    for layer in range(100, 1000, 100):
+    for layer in range(100, 1100, 100):
         for lr in lr_range:
             for lambda_w in w_range:
                 best_acc = mlp_fd(layer, lr, lambda_w, epochs=15, batchsize=64, pretrain=False, mode='train', activate='L_relu')
