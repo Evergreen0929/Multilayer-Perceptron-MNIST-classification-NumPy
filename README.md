@@ -1,6 +1,7 @@
 # Multilayer-Perceptron-MNIST-classification-NumPy
 Class project： Realizing image classification of MNIST by MLP on the basis of NumPy.
 
+
 ## Preparations
 
 ### Requirements 
@@ -15,6 +16,7 @@ The MNIST can be downloaded from [official webset](http://yann.lecun.com/exdb/mn
 ### Pre-trained weights
 I have pretrained models with different sizes, the number of neurons in the hidden layer range from 100 to 900. You can choose the pre-trained weights you need to make inference or train from scratch.  
 The pretrained-models can be downloaded from [https://pan.baidu.com/s/1ynDyD2Aa1QuzJqxCTOqNYg](https://pan.baidu.com/s/1ynDyD2Aa1QuzJqxCTOqNYg), (pwd: dkfb). The downloaded weights should be placed in `./save_model/`.
+
 
 ## Get Started
 
@@ -39,4 +41,9 @@ learning rate: {0.01, 0.003, 0.001, 0.0003, 0.0001}
 regularization weight: {0.1, 0.03, 0.01, 0.003, 0}  
 
 The searching process may take a long period, a full result list can be found in `./logs_full_search.txt`
+
+
+## Contact
+
+19307140032@fudan.edu.cn
 
