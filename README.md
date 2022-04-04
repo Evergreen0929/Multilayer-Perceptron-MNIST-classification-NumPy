@@ -5,8 +5,8 @@ Class project： Realizing image classification of MNIST by MLP on the basis of 
 ## Preparations
 
 ### Requirements 
-python = 3.6.13  
-NumPy = 1.19.2  
+>python = 3.6.13  
+>NumPy = 1.19.2  
 
 **for visualization:** matplotlib = 3.3.4, PIL = 8.2.0, sklearn = 0.24.2  
 
@@ -38,11 +38,11 @@ python main.py inference --hidden_nodes 900 --lr 0.01 --lambda_w 0.01
 python main.py search
 ```
 The searching process including all of the hyper-parameter combinations from:  
-`--hidden_nodes`: {100, 200, 300, 400, 500, 600, 700, 800, 900}  
-`--lr`: {0.01, 0.003, 0.001, 0.0003, 0.0001}  
-`--lambda_w`: {0.1, 0.03, 0.01, 0.003, 0}  
+>`--hidden_nodes`: {100, 200, 300, 400, 500, 600, 700, 800, 900}  
+>`--lr`: {0.01, 0.003, 0.001, 0.0003, 0.0001}  
+>`--lambda_w`: {0.1, 0.03, 0.01, 0.003, 0}  
 
-The searching process may take a long period, a full result list can be found in `./logs_full_search.txt`
+The searching process may take a long period, a full result list can be found in `./logs_full_search.txt`.
 
 
 ## Contact
