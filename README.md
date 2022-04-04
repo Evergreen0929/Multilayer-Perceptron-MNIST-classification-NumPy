@@ -33,10 +33,10 @@ python main.py inference --hidden_nodes 900 --lr 0.01 --lambda_w 0.01
 ```
 python main.py search
 ```
-The searching process including all of the hyper-parameter combinations from:
-hidden nodes: {100, 200, 300, 400, 500, 600, 700, 800, 900}
-learning rate: {0.01, 0.003, 0.001, 0.0003, 0.0001}
-regularization weight: {0.1, 0.03, 0.01, 0.003, 0}
+The searching process including all of the hyper-parameter combinations from:  
+hidden nodes: {100, 200, 300, 400, 500, 600, 700, 800, 900}  
+learning rate: {0.01, 0.003, 0.001, 0.0003, 0.0001}  
+regularization weight: {0.1, 0.03, 0.01, 0.003, 0}  
 
-The searching process may take a long period, a full result list can be found in 
+The searching process may take a long period, a full result list can be found in `./logs_full_search.txt`
 
