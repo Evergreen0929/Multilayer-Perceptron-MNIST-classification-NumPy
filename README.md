@@ -20,13 +20,23 @@ The pretrained-models can be downloaded from [https://pan.baidu.com/s/1ynDyD2Aa1
 
 ### Train a MLP
 ```
-python train --hidden_nodes 900 --lr 0.01 --lambda_w 0.01 --vis_train True --vis_feature True
+python main.py train --hidden_nodes 900 --lr 0.01 --lambda_w 0.01 --vis_train True --vis_feature True
 ```
 The visualization of training process and hidden features can be found in `./results/model_h-nodes${hidden_nodes}_lr${lr}_w${lambda_w}` after training.
 
 ### Inference
 ```
-python inference --hidden_nodes 900 --lr 0.01 --lambda_w 0.01
+python main.py inference --hidden_nodes 900 --lr 0.01 --lambda_w 0.01
 ```
 
+### Grid Search
+```
+python main.py search
+```
+The searching process including all of the hyper-parameter combinations from:
+hidden nodes: {100, 200, 300, 400, 500, 600, 700, 800, 900}
+learning rate: {0.01, 0.003, 0.001, 0.0003, 0.0001}
+regularization weight: {0.1, 0.03, 0.01, 0.003, 0}
+
+The searching process may take a long period, a full result list can be found in 
 
