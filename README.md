@@ -16,3 +16,11 @@ The MNIST can be downloaded from [official webset](http://yann.lecun.com/exdb/mn
 I have pretrained models with different sizes, the number of neurons in the hidden layer range from 100 to 900. You can choose the pre-trained weights you need to make inference or train from scratch.  
 The pretrained-models can be downloaded from [https://pan.baidu.com/s/1ynDyD2Aa1QuzJqxCTOqNYg](https://pan.baidu.com/s/1ynDyD2Aa1QuzJqxCTOqNYg), (pwd: dkfb). The downloaded weights should be placed in `./save_model/`.
 
+## Get Started
+
+### Train a MLP
+```
+python train --hidden_nodes 900 --lr 0.01 --lambda_w 0.01 --vis_train True --vis_feature True
+```
+The visualization of training process and hidden features can be found in `./results/` after training.
+
