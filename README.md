@@ -22,5 +22,5 @@ The pretrained-models can be downloaded from [https://pan.baidu.com/s/1ynDyD2Aa1
 ```
 python train --hidden_nodes 900 --lr 0.01 --lambda_w 0.01 --vis_train True --vis_feature True
 ```
-The visualization of training process and hidden features can be found in `./results/` after training.
+The visualization of training process and hidden features can be found in `./results/model_h-nodes${hidden_nodes}_lr${lr}_w${lambda_w}` after training.
 
