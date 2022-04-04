@@ -26,7 +26,7 @@ python main.py train --hidden_nodes 900 --lr 0.01 --lambda_w 0.01 --vis_train Tr
 ```
 The visualization of training process and hidden features can be found in `./results/model_h-nodes${hidden_nodes}_lr${lr}_w${lambda_w}` after training.  
 
-The vis_train is a choice for visualizing the training process. The vis_feature is a choice for visualizing the hidden-layer neurons, which needs to utilize the PIL and sklearn package. I found the sklearn has some version problem when running on VScode, so if you want to watch some visualization results, please use PyCharm or other IDE, or you can choose to shut down this option.
+The option `--vis_train` is a choice for visualizing the training process. The option `--vis_feature` is a choice for visualizing the hidden-layer neurons, which needs to utilize the PIL and sklearn package. I found the sklearn has some version problem when running on VScode, so if you want to watch some visualization results, please use PyCharm or other IDE, or you can choose to shut down this option.
 
 ### Inference
 ```
@@ -38,9 +38,9 @@ python main.py inference --hidden_nodes 900 --lr 0.01 --lambda_w 0.01
 python main.py search
 ```
 The searching process including all of the hyper-parameter combinations from:  
-hidden nodes: {100, 200, 300, 400, 500, 600, 700, 800, 900}  
-learning rate: {0.01, 0.003, 0.001, 0.0003, 0.0001}  
-regularization weight: {0.1, 0.03, 0.01, 0.003, 0}  
+`--hidden_nodes`: {100, 200, 300, 400, 500, 600, 700, 800, 900}  
+`--lr`: {0.01, 0.003, 0.001, 0.0003, 0.0001}  
+`--lambda_w`: {0.1, 0.03, 0.01, 0.003, 0}  
 
 The searching process may take a long period, a full result list can be found in `./logs_full_search.txt`
 
