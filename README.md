@@ -17,6 +17,253 @@ The MNIST can be downloaded from [official webset](http://yann.lecun.com/exdb/mn
 I have pretrained models with different sizes, the number of neurons in the hidden layer range from 100 to 900. You can choose the pre-trained weights you need to make inference or train from scratch.  
 The pretrained-models can be downloaded from [https://pan.baidu.com/s/1ynDyD2Aa1QuzJqxCTOqNYg](https://pan.baidu.com/s/1ynDyD2Aa1QuzJqxCTOqNYg), (pwd: dkfb). The downloaded weights should be placed in `./save_model/`.
 
+<table class=MsoTable15Plain1 border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid #BFBFBF .5pt;
+ mso-border-themecolor:background1;mso-border-themeshade:191;mso-yfti-tbllook:
+ 1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:-1;mso-yfti-firstrow:yes;mso-yfti-lastfirstrow:yes'>
+  <td width=138 valign=top style='width:103.7pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;mso-border-alt:
+  solid #BFBFBF .5pt;mso-border-themecolor:background1;mso-border-themeshade:
+  191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:5'><b><span lang=EN-US>Hidden Nodes<o:p></o:p></span></b></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-left:none;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:1'><b><span lang=EN-US>Acc<o:p></o:p></span></b></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-left:none;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:1'><b><span lang=EN-US>Hidden Nodes<o:p></o:p></span></b></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-left:none;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:1'><b><span lang=EN-US>Acc<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:0'>
+  <td width=138 valign=top style='width:103.7pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:68'><span lang=EN-US
+  style='mso-bidi-font-weight:bold'>100<o:p></o:p></span></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span lang=EN-US>0.9759</span></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span lang=EN-US>600</span></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span lang=EN-US>0.9840</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=138 valign=top style='width:103.7pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:4'><span lang=EN-US style='mso-bidi-font-weight:
+  bold'>200<o:p></o:p></span></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>0.9809</span></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>700</span></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>0.9843</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=138 valign=top style='width:103.7pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:68'><span lang=EN-US
+  style='mso-bidi-font-weight:bold'>300<o:p></o:p></span></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span lang=EN-US>0.9828</span></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span lang=EN-US>800</span></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span lang=EN-US>0.9842</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=138 valign=top style='width:103.7pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:4'><span lang=EN-US style='mso-bidi-font-weight:
+  bold'>400<o:p></o:p></span></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>0.9827</span></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-US>900<o:p></o:p></span></b></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-US>0.9858<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
+  <td width=138 valign=top style='width:103.7pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:68'><span lang=EN-US
+  style='mso-bidi-font-weight:bold'>500<o:p></o:p></span></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span lang=EN-US>0.9829</span></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span lang=EN-US>1000</span></p>
+  </td>
+  <td width=138 valign=top style='width:103.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span lang=EN-US>0.9854</span></p>
+  </td>
+ </tr>
+</table>
+
 
 ## Get Started
 
